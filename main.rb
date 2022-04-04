@@ -1,1 +1,3 @@
-require Player from './player'
+require './player'
+require './game'
+require './turn'
