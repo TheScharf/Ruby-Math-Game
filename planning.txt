@@ -1,0 +1,26 @@
+player
+There are two players who each take turns playing the game. They will have the ability to
+input the answers to the individual questions they receive. They will each start with 3 lives and 
+each wrong question will cause them to lose a life. The first player to be left with no lives will
+lose, resulting in the other player being the winner.
+Have to differentiate between players.
+Have to know their answers.(user input)
+Have to keep track of lives.
+
+question/s
+Produces a simple addition question to one the two players. Determines what the correct answer is.
+Have to know the question.
+Have to know the answer to the question.
+
+turn
+Indicates which player is playing. Asks the current question and awaits a response. Responds with a 
+comment on whether the answer is correct or wrong.
+Have to know which player is playing.(whos turn)
+Have to ask the question.
+
+game
+Keeps track of turns and the current score of game. Indicates when one player has no more lives and
+the game is over. "Good bye!"
+Have to know which player is playing.(contains game loop)
+Have to know the score.
+Have to declare a winner.
